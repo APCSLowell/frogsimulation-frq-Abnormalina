@@ -14,7 +14,7 @@ public class FrogSimulation
 	//implementation is below, but not important
 	
 	public boolean simulate()
-	{ 
+	{
 	int position = 0;
 	for(int i = 0; i < maxHops; i++){
 		position += hopDistance();
@@ -38,7 +38,7 @@ public class FrogSimulation
 		}
 		return countSuccess/num;
 	}
-}
+
 
 	
 	
@@ -107,7 +107,6 @@ public class FrogSimulation
 		this.col = 0;
 	}
 	
+}
 	
-	
-	
-} 
+
