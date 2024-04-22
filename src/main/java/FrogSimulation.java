@@ -30,13 +30,13 @@ public class FrogSimulation
 	
 	public double runSimulations(int num)
 	{ 
-	int countSuccess = 0;
+	double countSuccess = 0;
 	for(int count = 0;count < num; count++){
-		if(simulate()){
+		if(simulate()==true){
 			countSuccess++;
 			}
 		}
-		return (double)countSuccess/num;
+		return countSuccess/num;
 	}
 }
 
